@@ -24,7 +24,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         
         layout.minimumLineSpacing = 4
         layout.minimumInteritemSpacing = 4
-        
         let width = (view.frame.size.width - layout.minimumInteritemSpacing * 2) / 3
         let height = width * 3 / 2
         layout.itemSize = CGSize(width: width, height: height)
